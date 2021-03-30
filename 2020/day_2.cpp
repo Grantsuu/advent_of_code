@@ -1,8 +1,3 @@
-#include <algorithm>
-#include <fstream>
-#include <iostream>
-#include <string>
-#include <vector>
 /** --- Day 2: Password Philosophy ---
 Your flight departs in a few days from the coastal airport; the easiest way down
 to the coast from here is via toboggan.
@@ -62,6 +57,12 @@ Given the same example list from above:
 How many passwords are valid according to the new interpretation of the
 policies?
 Your puzzle answer was 670.*/
+
+#include <algorithm>
+#include <fstream>
+#include <iostream>
+#include <string>
+#include <vector>
 
 /** Function to read the contents of a text file and add them to a vector.
  * @param file_name is the name of the file to read.

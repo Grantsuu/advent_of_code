@@ -1,9 +1,3 @@
-#include <algorithm>
-#include <fstream>
-#include <iostream>
-#include <string>
-#include <vector>
-
 /* --- Day 1: Report Repair ---
 After saving Christmas five years in a row, you've decided to take a vacation at
 a nice resort on a tropical island. Surely, Christmas will go on without you.
@@ -55,6 +49,12 @@ In your expense report, what is the product of the three entries that sum to
 2020?
 
 Your puzzle answer was 192684960. */
+
+#include <algorithm>
+#include <fstream>
+#include <iostream>
+#include <string>
+#include <vector>
 
 /** Function to read the contents of a text file and add them to a vector.
  * @param file_name is the name of the file to read.
